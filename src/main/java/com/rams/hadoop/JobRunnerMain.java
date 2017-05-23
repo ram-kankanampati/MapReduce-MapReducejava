@@ -18,7 +18,7 @@ import org.apache.hadoop.util.ToolRunner;
  * 
  * <p><b>Steps to Run:</b>
  * <p>1) Build the jar by run as maven 'clean compile install'
- * <p>2) Copy the JAR file to Unix server, in you case sandbox
+ * <p>2) Copy the JAR file to Unix server, in your case sandbox
  * <p>3) copy the input sampledata.txt file in to HDFS file system under /rams/input folder
  * 		<br>[root@sandbox ~]# hadoop fs -mkdir /rams/input
  *		<br>[root@sandbox ~]# hadoop fs -put sampledata.txt  /rams/input/
